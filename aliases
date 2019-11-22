@@ -1,1 +1,1 @@
-alias "go=docker run --rm -v $(pwd):/code -w /code -it local-go go "
+alias "go=docker run --rm -v `pwd`:/code -it local-go go "
